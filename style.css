@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    max-width: 140px;
+    height: auto;
+    padding-left: 65px;
+}
+
+.logo img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+header nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    list-style: none;
+}
+
+header nav ul li {
+    font-size: larger;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    color: ivory;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+header nav ul li a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+a {
+    color: ivory;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding-right: 70px;
+}
+
+.social-icons img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.social-icons img:hover {
+    opacity: 0.7;
+}
+
+.proposito {
+    background-color: #f2f2f2;
+    color: #222;          
+    height: auto;          
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.mecanico{
+    flex: 1;
+}
+
+.mecanico img {
+    max-width: 300px;
+    height: auto;
+
+}
+
